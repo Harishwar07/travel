@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login and Signup Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <style>
+    body{
+        font-family: Arial, sans-serif;
+        padding-left: 30%;
+        padding-top: 10%;
+      }
+      #background-video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+    }
+    .container-login {
+            max-width: 400px;
+            margin: 0 auto;
+            padding-top: 100px;
+            padding-bottom: 100px;  
+
+        }
+    .card-header{
+        text-align: center;
+    }
+    .card{
+            background: transparent;
+
+        }
+    #signupName,#signupEmail,#signupPassword{
+            background: transparent;
+        }
+    a{
+        color: white;
+    }
+      </style>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted >
+        <source src="ladakh.mp4" type="video/mp4">
+    </video>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Signup</h4>
+                        </div>
+                        <div class="card-body">
+                            <form action="project.html" class="was-validated">
+                                <div class="form-group">
+                                    <label for="signupName">User Name</label>
+                                    <input type="text" class="form-control" id="signupName" placeholder="Enter name" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="signupEmail">Email address</label>
+                                    <input type="email" class="form-control" id="signupEmail" placeholder="Enter email" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="signupPassword">Password</label>
+                                    <input type="password" class="form-control" id="signupPassword" placeholder="Password" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Signup</button>
+                                <button type="button" class="btn btn-primary"><a href="login.html">Login</a></button>
+                        
+                            </form>
+                
+                        </div>
+                    </div>
+                
+                <div class="col-md-6">
+            </div>
+        </div>           
+    </body>
+</html>
+    
