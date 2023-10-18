@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>House of travel</title>
@@ -168,7 +169,7 @@ img{
     <source src="mount.mp4" type="video/mp4">
 </video>
     <header>
-      <h1 font-size:36px; >HOUSE OF TRAVEL </h1><br>
+      <h1>HOUSE OF TRAVEL </h1><br>
       <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Login
@@ -183,15 +184,15 @@ img{
           
           <li><i href="#home" class="fa-solid fa-house"></i><a href="#home">Home</a></li>
           
-          <li><i class="fa-solid fa-map-location-dot"></i><a href="#destinations">Destinations</a></li>
+          <li><a href="#destinations">Destinations</a></li>
           
-          <li><i class="fa-solid fa-plane"></i><a href="#Flight">Flight</a></li>
+          <li><a href="#Flight">Flight</a></li>
           
-          <li><i class="fa-solid fa-train-subway"></i><a href="#Train">Train</a></li>
+          <li><a href="#Train">Train</a></li>
           
-          <li><i class="fa-solid fa-taxi"></i><a href="#Cab">Cab</a></li>
+          <li><a href="#Cab">Cab</a></li>
           
-          <li><i class="fa-solid fa-bus"></i><a href="#Bus">Bus</a></li>
+          <li><a href="#Bus">Bus</a></li>
         </ul>
       </nav>
     </header>
